@@ -20,11 +20,11 @@ const Lang = Language.getString('updater');
 //උස්සන උන්ගෙ රෙපෝ කෙලවිලාම පලයම්
 var logoimage = new Array ();
 
-logoimage[0] = "https://telegra.ph/file/a51a91c22de055d730c6e.jpg";
-logoimage[1] = "https://telegra.ph/file/34ef0c8009b176cd5772d.jpg";
-logoimage[2] = "https://telegra.ph/file/75433f8d2a4523e14a966.jpg";
-logoimage[3] = "https://telegra.ph/file/b61382ac648c3957a62af.jpg";
-logoimage[4] = "https://telegra.ph/file/a51a91c22de055d730c6e.jpg";
+logoimage[0] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkFYiN_Q2W6-aKza0AZU6TkpJQCDrM6aRa4w&usqp=CAU";
+logoimage[1] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkFYiN_Q2W6-aKza0AZU6TkpJQCDrM6aRa4w&usqp=CAU";
+logoimage[2] = "https://encrypted-tbn0.gstatic.comhttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkFYiN_Q2W6-aKza0AZU6TkpJQCDrM6aRa4w&usqp=CAU/images?q=tbn:ANd9GcSkFYiN_Q2W6-aKza0AZU6TkpJQCDrM6aRa4w&usqp=CAU";
+logoimage[3] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkFYiN_Q2W6-aKza0AZU6TkpJQCDrM6aRa4w&usqp=CAU";
+logoimage[4] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkFYiN_Q2W6-aKza0AZU6TkpJQCDrM6aRa4w&usqp=CAU";
 
   var i = Math.floor(5*Math.random())
 
@@ -36,7 +36,7 @@ amazone.addCommand({pattern: 'update$', fromMe: true,  desc: Lang.UPDATER_DESC},
     if (commits.total === 0) {
         
         var webimage = await axios.get(`${uplogonew}`, { responseType: 'arraybuffer' })
-        await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg  , caption: '\n\n\n\n' + Lang.UPDATE +'\n\n\n\n *👩‍🦰powerd by amazone Alexa*' })
+        await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg  , caption: '\n\n\n\n' + Lang.UPDATE +'\n\n\n\n *👩‍🦰powerd by Ikshwaku Pandey*' })
     
     } else {
         var newzels = Lang.NEW_UPDATE;
@@ -47,7 +47,7 @@ amazone.addCommand({pattern: 'update$', fromMe: true,  desc: Lang.UPDATER_DESC},
         );
         
         var webimage = await axios.get(`${uplogonew}`, { responseType: 'arraybuffer' })
-        await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg  , caption: newzels + '```'+'\n\n *👩‍🦰powerd by amazone Alexa*' })
+        await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg  , caption: newzels + '```'+'\n\n *👩‍🦰powerd by Ikshwaku Pandey*' })
         
     }
  }));  
