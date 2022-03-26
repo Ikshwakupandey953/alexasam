@@ -48,7 +48,7 @@ Neotro.addCommand({pattern: 'menu', fromMe: false, dontAddCommandList: true}, (a
 
         buttonText: '𝗠𝗘𝗡𝗨',
 
-        description: "╔✘          ꪶ͢Ikshwaku Pandey💝ꫂ⁩\n║✘              \n║✘╔════╗╔═╗╔══╗╔╗╔╗╔╗\n║✘║╔╗╔╗║║═╝║╔╗║║║║║║║\n║✘║║║║║║║═╗║║║╚╝║║╚╝║\n║✘╚╝╚╝╚╝╚═╝╚╝╚══╝╚══╝\n║✘           \n║✘      ʜɪ 👋 \n║✘ \n║✘              *⌚" + plk_say + "*     \n║✘\n║✘▢ *ᴅᴇᴠᴇʟᴏʟᴇʀ* : Ikshwakuꫂ\n║✘▢ *ʙᴏᴛ * : " Owner Edition "  \n║✘▢ *ᴠᴇʀsɪᴏɴ* : 3.0\n║✘▢ *Name* : " Jarvis by Ikshwaku " \n║✘▢ *ᴀᴜᴛᴏ ʙɪᴏ* : " Off "  \n║✘▢ *ᴍᴏᴅᴇ* : " + Config.WORKTYPE + "\n║✘▢ *ᴘʀᴇғɪx* : *. , !*\n║✘\n║✘\n╚✘ ════IKSHWAKU PANDEYꫂ═════✘",
+        description: "╔ ʜɪ 👋 \n║✘ \n║✘              *⌚" + plk_say + "*     \n║✘\n║✘▢ *ᴅᴇᴠᴇʟᴏʟᴇʀ* : Ikshwakuꫂ\n║✘▢ *ʙᴏᴛ * : " Owner Edition "  \n║✘▢ *ᴠᴇʀsɪᴏɴ* : 3.0\n║✘▢ *Name* : " Jarvis by Ikshwaku " \n║✘▢ *ᴀᴜᴛᴏ ʙɪᴏ* : " Off "  \n║✘▢ *ᴍᴏᴅᴇ* : " + Config.WORKTYPE + "\n║✘▢ *ᴘʀᴇғɪx* : *handalers*\n║✘\n║✘\n╚✘ ════IKSHWAKU PANDEYꫂ═════✘",
 
         sections: sections,
 
