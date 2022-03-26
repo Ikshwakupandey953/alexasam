@@ -20,7 +20,7 @@ const Lang = Language.getString('system_stats');
             
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "\n\n*Hii,This is Jarvis....*\n*💫🧚‍♀️Hey There Im Alive Now*\n\n*◉Version :► 8.5.0 (Public Release)*\n*◉Branch  :► Owner*\n*◉About :► Jarvis Is a Powerfull Bot For Whatsapp.*\n*◯●Grade :►Dev\n\n*💫©Join Our Group*\n*▷📑News & Update Report*\n_◈https://chat.whatsapp.com/FX6xcC7HwkPCiXdVBrQV45*"})
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "\n\n*Hii,This is Jarvis....*\n*💫🧚‍♀️Hey There Im Alive Now*\n\n*◉Version :► 8.5.0 (Public Release)*\n*◉Branch  :► Owner*\n*◉About :► Jarvis Is a Powerfull Bot For Whatsapp.*\n*●Grade :►Dev"})
 
     }
     else {
