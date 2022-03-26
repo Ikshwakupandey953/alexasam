@@ -9,46 +9,26 @@ const Lang = Language.getString('system_stats');
 
 if (Config.LANG == 'EN') {
 
-    Neotro.addCommand({pattern: 'basichelp', fromMe: true, dontaddCommandList:true}, (async (message, match) => {
+    Neotro.addCommand({pattern: 'bhelp', fromMe: true, dontaddCommandList:true}, (async (message, match) => {
             
             var image = await axios.get (Config.MENU_LOGO, {responseType: 'arraybuffer'})
        
         await message.sendMessage (Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: `*⊰᯽⊱┈──╌❊  ❊╌──┈⊰᯽⊱*
  *═▣══❖⦁⦁⦁👽⦁⦁⦁❖══▣═*
-*🚀Neotro-x BASIC Help*
+*🚀Jarvis BASIC Help*
 
- Nootro-x Bot If you are using (Public) mode then you are only running admin commands.
+ Jarvis Bot If you are using (Public) mode then you are only running admin commands.
 But for others, all the commands except the admin commands are active ...
 
 Use (.Admin) to get the admin command list
-Use (.alexa) to get the complete command list.
-
-If you are using neotro-x as Private (.neotro) you can use this command to get the command list.
-
-Simultaneous deactivation of your bot is not the bot's fault (75%)
-In that case, check your internet connection and whatsapp web.
-
-In such a case you need to Restart Bot by Heroku to reactivate Bot ...
-
-It is mandatory to check your Heroku Dyno.
-
-Steps
-
-(01) Log in to Heroku
-(02) Select the app you set up Bot
-(03) Click the [MORE] button at the top corner
-(04) Click Restart all dynos at the end of the list
-Now your Bot will restart..If using it does not activate the Bot then write to the support group with a screen shot of the logs
-
-Did you know that Neotro-x allows you to change Alive message - Alive logo - Welcome Gif - Ban messages - Captions ..
-
+Use (.jarvis) to get the complete command list.
 
 *Command: .setvar ALIVE_MESSAGE :( Write what you want)*
 Changes the BOT alive message.
 
 
-*Command: .setvar LANGUAGE: SI / EN*
-Translate bot functionality into Sinhala or English.
+*Command: .setvar LANGUAGE: HI / EN*
+Translate bot functionality into Hindi or English.
 
 
 *Command: .setvar PROMOTE_MESSAGE: (Write what you want)*
@@ -105,50 +85,6 @@ How to convert your account to AI CHAT Bot?
 
 *.Eva on* This enables AI EVA chatbots.
 *Eva off* AI Disables the EVA chatbot.
-
-What do you do when Dyno suddenly runs out?
-
-You can get free dyno from scratch again under a gmail address
-
-Or you can transfer the old app to a new account and move on.
-
-Steps
-
-_Create a new Hiroku account_
- _Log in to the Hiroku account where the Bot application already exists_
-_Sign in the bot application_
-*_Go to *ACCESS* in the inner panel_
- _Click on *Add collaborator* and add the e-mail address of your newly created Hiroku account there_
-_Now go to *SETTINGS* in the Bot application_
-_You will see *Transfer ownership* when you go down there.
-_Now select the newly created* Heroku Account* and click on *Transfer App* ._
-_Now you will receive the transfer acceptance message on the e-mail / G-mail related to your new Hiroku account._
-_You can successfully transfer your old application to the new Hiroku account by clicking on that message._
-
-What to do if there is a bug error ..?
-
-ERRO Messages These are really Logo Site issues so don't worry about them.
-
-Other Erros have received your LOG number in detail and there is a solution to this .. Follow those steps
-
-
-*🚀Neotro-x Support Groups*
-🛡️ https://t.me/Amazone_Neotrox_Support
-
-🛸Neutro Bot News 01
-Https: //chat.whatsapp.com/LuLTEKm22fp8gv4ltCmKMo
-
-🚀Neotro Bot News 02
-Https: //chat.whatsapp.com/LVykTrmNEU98AktU0eBNNq
-
-🛸Neutro plugging
-Https: //chat.whatsapp.com/JJs2iwfF0VKL3IWrIyr7AT
-
-🚀Neutro Support Community 01
-Https: //chat.whatsapp.com/GTgqgMTo7FoJ1GqdijshsX
-
-🚀Neotro Support Community 02
-Https: //chat.whatsapp.com/K4QouGNrNcm1iARgDaYiLj
  `}) 
 
  }));
