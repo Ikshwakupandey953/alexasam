@@ -48,7 +48,7 @@ Neotro.addCommand({pattern: 'menu', fromMe: false, dontAddCommandList: true}, (a
 
         buttonText: 'MENU OF JARVIS',
 
-        description: "Thank me later 😁😍",
+        description: "*Hii,This is Jarvis Personal assistant of Mr Ikshwaku Pandey*\n*I can do many cool tasks for my owner*\n*Branch*:-Master(Owner Edition)\n*Grade*:- Dev\n*Owner*:-Mr Ikshwaku Pandey\n\n\n```Thank You```",
 
         sections: sections,
 
