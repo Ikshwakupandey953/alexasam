@@ -26,7 +26,7 @@ Neotro.addCommand({pattern: 'menu', fromMe: false, dontAddCommandList: true}, (a
 
     const rows = [
 
-        {title: 'Check Alive', description: ".alive", rowId:" rowid1"},
+        {title: '.alive', description: "To check bot is alive or not.", rowId:" rowid1"},
 
         {title: 'Comman Help', description: ".jarvis", rowId:"rowid2"},
 
