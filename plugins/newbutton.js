@@ -1,4 +1,4 @@
-const Neotro = require('../events');
+/*const Neotro = require('../events');
 
 const {MessageType} = require('@adiwajshing/baileys');
 
@@ -87,3 +87,4 @@ else if (Config.WORKTYPE == 'private') {
     }));
 
 }
+*/
