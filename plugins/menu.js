@@ -26,9 +26,9 @@ Neotro.addCommand({pattern: 'menu', fromMe: false, dontAddCommandList: true}, (a
 
     const rows = [
 
-        {title: '.alive', description: "To check bot is alive or not.", rowId:" rowid1"},
+        {title: 'Alive', description: "To check bot is alive or not.\nSend .alive", rowId:" rowid1"},
 
-        {title: 'Comman Help', description: ".jarvis", rowId:"rowid2"},
+        {title: 'Comman Help', description: "Send .jarvis to check common Help Commands", rowId:"rowid2"},
 
         {title: 'Full Help', description: ".help", rowId:" rowid3"},
 
@@ -46,9 +46,9 @@ Neotro.addCommand({pattern: 'menu', fromMe: false, dontAddCommandList: true}, (a
 
        const button = {
 
-        buttonText: '𝗠𝗘𝗡𝗨',
+        buttonText: 'MENU OF JARVIS',
 
-        description: "Thanks for using bot",
+        description: "Thank me later 😁😍",
 
         sections: sections,
 
