@@ -16,7 +16,7 @@ const Language = require('../language');
 
 const Lang = Language.getString('system_stats');
 
-if (Config.WORKTYPE == 'private') {
+if (Config.WORKTYPE == 'public') {
 
     Neotro.addCommand({pattern: 'check', fromMe: true, desc: Lang.ALIVE_DESC}, (async (message, match) => {
 
@@ -44,7 +44,7 @@ if (Config.WORKTYPE == 'private') {
 
 }
 
-else if (Config.WORKTYPE == 'public') {
+else if (Config.WORKTYPE == 'private') {
 
    Neotro.addCommand({pattern: 'check', fromMe: false, desc: Lang.ALIVE_DESC}, (async (message, match) => {
 
